@@ -1,0 +1,23 @@
+{
+  "name": "react-i18n-helper",
+  "url": "",
+  "license": "MIT",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/npm/npm.git"
+  },
+  "dependencies": {
+    "callsite": "^1.0.0",
+    "jquery": "^1.7.4",
+    "node-polyglot": "^2.0.0",
+    "redux": ""
+  },
+  "devDependencies":{
+    "rackt-cli": "^0.4.0"
+  },
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "start" : "rackt server"
+  }
+}
