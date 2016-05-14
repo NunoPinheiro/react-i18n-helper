@@ -5,7 +5,15 @@ The main goal of this project is to provide dynamic client side locale change. T
 New locale contents are also automatically fetched on demand, you do not need all users to fetch all languages.
 
 # Using
+Instal the library:
+
+`npm install --save react-i18n-helper`
+
+All the functions refered on this readme can be imported by using the expression:
+
+`import {<functionName>} from "react-i18n-helper";`
 ## Configuration
+
 To start the lib you need some basic configurations though the function `setupI18NConfiguration`. This function receives a single object with the following fields:
   - serverPath : Path to fetch the messages during server side rendering. (Optional)
 

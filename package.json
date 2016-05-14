@@ -1,8 +1,9 @@
 {
   "name": "react-i18n-helper",
+  "main": "./dist/react-i18n-helper.js",
   "url": "https://github.com/NunoPinheiro/react-i18n-helper",
   "license": "MIT",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/NunoPinheiro/react-i18n-helper"
@@ -17,7 +18,7 @@
     "rackt-cli": "^0.4.0"
   },
   "scripts": {
-    "build": "babel src --out-dir lib",
+    "compile": "babel lib --out-dir dist",
     "start" : "rackt server"
   }
 }
