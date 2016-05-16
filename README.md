@@ -4,6 +4,7 @@ The main goal of this project is to provide dynamic client side locale change. T
 
 New locale contents are also automatically fetched on demand, you do not need all users to fetch all languages.
 
+The reasoning behind this project can be [read in this post.](https://medium.com/@nunogrilopinheiro/i18n-for-react-5cd0297d7c98#.h7amt6i6y).
 # Using
 Instal the library:
 
