@@ -37,3 +37,12 @@ When you want to change the locale, just trigger the `changeLocale` function whi
 
 # Example
 Please check the current example in the "examples" folder of this repository. If you want to run it, just call `npm start` in the root folder and access `localhost:8080` in your browser.
+
+# Building Project
+If you want to build this project, first you need to fetch its dependencies:
+
+`npm install`
+
+You can then compile the project running:
+
+`npm run-script compile`
