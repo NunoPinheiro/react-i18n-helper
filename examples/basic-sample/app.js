@@ -19,7 +19,7 @@ var App = React.createClass({
   getInitialState : function(){
     //The initial data should be injected on the page
     var initialData = {"HelloWorld" : "Hello, World!"};
-    setupI18NConfiguration({clientPath : "/basic-sample/i18n", fallBackLocale : "en-GB", initialState : {"locale" : "en-GB", data : initialData}});
+    setupI18NConfiguration({clientPath : "/examples/basic-sample/i18n", fallBackLocale : "en-GB", initialState : {"locale" : "en-GB", data : initialData}});
     return {};
   },
   render : function(){
