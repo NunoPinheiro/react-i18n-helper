@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "callsite": "^1.0.0",
-    "jquery": "^1.7.4",
     "node-polyglot": "^2.0.0",
     "redux": ""
   },
