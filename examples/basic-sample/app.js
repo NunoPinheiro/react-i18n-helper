@@ -8,7 +8,7 @@ var I18NSelectionComponent = React.createClass({
       <div>
         <button onClick={() => changeLocale("pt-PT")}>pt-PT</button>
         <button onClick={() => changeLocale("en-GB")}>en-GB</button>
-        <button onClick={() => changeLocale("fr-FR")}>fr-FR (Will falback to en-GB)</button>
+        <button onClick={() => changeLocale("fr-FR")}>fr-FR (Will fallback to en-GB)</button>
       </div>
     );
   }
